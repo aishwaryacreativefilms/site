@@ -1,20 +1,41 @@
 ---
 layout: default
-title: "SVR Deals – Black Friday App"
-meta_description: "SVR Deals is a Black Friday shopping app with curated deals, ad scans, coupons, and privacy-first browsing—no signups or clutter, just trustworthy savings across online and in-store retailers."
+title: "SVR Deals – Verified Deals App"
+meta_description: "SVR Deals is a verified shopping deals app and website with daily discounts, coupons, local offers, trending picks, and privacy-first browsing—no signups or clutter, just trustworthy savings."
 meta_keywords:
   - SVR Deals app
-  - Black Friday deals app
+  - verified deals app
   - curated shopping deals
   - coupon app without signups
-  - ad scan flyers
+  - daily discounts and coupons
 ---
 
 <section class="app-hero deals-hero">
-  <p class="project-tag">Now live</p>
-  <h1>SVR Deals – Black Friday App</h1>
-  <p>SVR Deals is built for people who love great prices but hate wasting time digging through cluttered threads, expired coupons, and paywalled flyers.</p>
-  <p>The App Store release spotlights curated hubs, themed tags, and ad scans that make Black Friday scanning calmer, faster, and more trustworthy.</p>
+  <svg class="svr-logo-mark" viewBox="0 0 320 200" role="img" aria-labelledby="svr-logo-title svr-logo-desc">
+    <title id="svr-logo-title">SVR Deals gold AC logo</title>
+    <desc id="svr-logo-desc">A gold AC monogram inspired by the SVR Deals logo, with a sparkle and film-strip curve.</desc>
+    <defs>
+      <linearGradient id="svr-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#fff7c2" />
+        <stop offset="32%" stop-color="#f7c94b" />
+        <stop offset="64%" stop-color="#a86208" />
+        <stop offset="100%" stop-color="#ffe990" />
+      </linearGradient>
+      <filter id="svr-shadow" x="-20%" y="-20%" width="140%" height="140%">
+        <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#130805" flood-opacity="0.35" />
+      </filter>
+    </defs>
+    <path d="M36 164 C68 154 90 82 116 22 L160 138 L142 152 L116 70 C98 112 84 167 52 174 C45 175 39 172 36 164 Z" fill="none" stroke="url(#svr-gold)" stroke-width="14" stroke-linejoin="round" filter="url(#svr-shadow)" />
+    <path d="M122 132 C178 64 248 58 292 82" fill="none" stroke="url(#svr-gold)" stroke-width="16" stroke-linecap="round" filter="url(#svr-shadow)" />
+    <path d="M250 106 C284 124 286 168 252 184 C226 198 194 184 190 152 C186 116 220 92 250 106 Z" fill="none" stroke="url(#svr-gold)" stroke-width="13" stroke-linecap="round" filter="url(#svr-shadow)" />
+    <path d="M232 112 C244 130 244 160 230 180" fill="none" stroke="#5b2b05" stroke-width="4" opacity="0.75" />
+    <path d="M248 118 L276 130 M252 134 L282 146 M250 151 L278 164" stroke="#fff0a7" stroke-width="4" stroke-linecap="round" />
+    <path d="M100 83 L107 102 L126 109 L107 116 L100 136 L93 116 L74 109 L93 102 Z" fill="url(#svr-gold)" filter="url(#svr-shadow)" />
+  </svg>
+  <p class="project-tag">Verified deals platform</p>
+  <h1>SVR Deals – Verified Deals, Top Discounts & Coupons</h1>
+  <p>SVR Deals has grown beyond a Black Friday companion into an always-on savings platform for live deals, daily discounts, local offers, trending picks, and coupon context.</p>
+  <p>Inspired by SVRDeals.com, the app keeps the same promise: Shoppers Verified &amp; Recommended, with no signups, no BS, just deals.</p>
   <div class="hero-actions">
     <a class="button-primary" href="https://apps.apple.com/us/app/svr-deals-black-friday-2025/id6755274754" target="_blank" rel="noopener">Download on the App Store</a>
     <a class="button-secondary" href="{{ '/svr-deals-privacy.html' | relative_url }}">Review privacy details</a>
@@ -25,8 +46,8 @@ meta_keywords:
 {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
-  "name": "SVR Deals – Black Friday App",
-  "description": "SVR Deals is a curated Black Friday deals app with ad scans, coupon copying, and no mandatory signups.",
+  "name": "SVR Deals",
+  "description": "SVR Deals is a verified deals app and website with daily discounts, trending picks, local offers, coupons, and no mandatory signups.",
   "applicationCategory": "ShoppingApplication",
   "operatingSystem": "iOS 17+",
   "url": "{{ page.url | absolute_url }}",
@@ -44,7 +65,7 @@ meta_keywords:
     <div>
       <p class="project-tag">App Store release</p>
       <h2>Built for fast browsing and clean savings</h2>
-      <p>Launch the app to immediately browse curated Black Friday hubs, themed tags, and detailed deal cards. No signups required—just signal over noise.</p>
+      <p>Launch the app or visit SVRDeals.com to browse all deals, search, local offers, trending picks, top 50 highlights, AI deals, student deals, and detailed deal cards. No signups required—just signal over noise.</p>
       <div class="hero-actions">
         <a class="button-primary" href="https://apps.apple.com/us/app/svr-deals-black-friday-2025/id6755274754" target="_blank" rel="noopener">Download now</a>
         <a class="button-secondary" href="{{ '/contact.html' | relative_url }}">Partner with SVR Deals</a>
@@ -58,11 +79,11 @@ meta_keywords:
           <span class="pill pill-ghost">Starred</span>
         </div>
         <div class="mockup-body">
-          <p>Curated cards, themed tags, and ad scans packaged in a calm interface.</p>
+          <p>Verified cards, themed tags, local finds, and coupon notes packaged in a calm interface.</p>
           <ul class="mini-list">
-            <li>Switch between hubs without leaving the main view.</li>
-            <li>Quickly copy codes and jump into store-specific notes.</li>
-            <li>Save and reorder your favorite tags for quick checks.</li>
+            <li>Switch between all deals, trending, top 50, AI, student, and local feeds.</li>
+            <li>Quickly copy codes and jump into store-specific savings notes.</li>
+            <li>Save and reorder favorite tags for quick daily checks.</li>
           </ul>
         </div>
       </div>
@@ -73,9 +94,9 @@ meta_keywords:
 
 <section class="mission-block">
   <h2>No Signups. No BS. Just Deals.</h2>
-  <p>Our mission is to strip away the noise and spotlight curated, trustworthy drops. Launch the app and immediately dive into the best prices across tech, food, fashion, home, and more without creating an account.</p>
+  <p>Our mission is to strip away the noise and spotlight verified, trustworthy drops. Launch the app or open SVRDeals.com and immediately dive into the best prices across tech, home, fashion, gaming, essentials, food, and more without creating an account.</p>
   <p>Save favorites locally, opt in to notifications only if you want a gentle nudge, and browse an honest, lightweight experience tuned for fast scanning.</p>
-  <p>Every card includes high-intent keywords and descriptive tags so shoppers searching for “Black Friday TV deals,” “restaurant coupons,” or “home appliance discounts” can land directly on relevant SVR Deals content.</p>
+  <p>Every card includes high-intent keywords and descriptive tags so shoppers searching for “today’s deals,” “verified coupons,” “student discounts,” “restaurant coupons,” or “home appliance discounts” can land directly on relevant SVR Deals content.</p>
 </section>
 
 <section class="features">
@@ -86,8 +107,8 @@ meta_keywords:
       <p>Editors and the community sift through retailer drops, promos, and limited-time offers so you get the highlights, not the firehose.</p>
     </article>
     <article class="svr-feature-card">
-      <h3>Black Friday &amp; seasonal hubs</h3>
-      <p>Dedicated hubs split online, in-store, and ad-scan flyers. Preview PDF scans inside the app and hop straight into matching deals.</p>
+      <h3>Daily, trending &amp; seasonal hubs</h3>
+      <p>Dedicated hubs highlight all deals, trending offers, top 50 picks, local finds, student discounts, AI deals, and seasonal campaigns.</p>
     </article>
     <article class="svr-feature-card">
       <h3>Ongoing &amp; daily themes</h3>
@@ -99,7 +120,7 @@ meta_keywords:
     </article>
     <article class="svr-feature-card">
       <h3>Starred tags</h3>
-      <p>Favorite up to ten tags—think “Top 20”, “Black Friday”, or “restaurants”—to build a personalized Starred Tags screen.</p>
+      <p>Favorite up to ten tags—think “Top 50”, “student deals”, “AI deals”, or “restaurants”—to build a personalized Starred Tags screen.</p>
     </article>
     <article class="svr-feature-card">
       <h3>Deal pages with context</h3>
@@ -132,10 +153,10 @@ meta_keywords:
 <section class="how-it-works">
   <h2>What happens when you open the app</h2>
   <ol>
-    <li>Start in the Black Friday hub to browse online, in-store, or flyer-specific feeds curated by editors.</li>
+    <li>Start in All Deals to browse live offers, then filter by intensity, category, discount, or editor-curated picks.</li>
     <li>Use smart search and “browse by tag” to jump to the categories or retailers that matter most.</li>
     <li>Star your favorite themes to unlock a dedicated Starred Tags view for lightning-fast scanning.</li>
-    <li>Tap into deal detail pages for ad scans, coupon codes, store-specific notes, and instant copy-to-clipboard helpers.</li>
+    <li>Tap into deal detail pages for price context, coupon codes, store-specific notes, and instant copy-to-clipboard helpers.</li>
   </ol>
   <p>Have a brand, retailer, or affiliate program to showcase? Let’s collaborate on curated drops, ad scan conversions, and community partnerships.</p>
 </section>
@@ -143,8 +164,8 @@ meta_keywords:
 <section class="faq-section">
   <h2>SVR Deals SEO & discoverability FAQs</h2>
   <dl>
-    <dt>What makes SVR Deals rank for Black Friday keywords?</dt>
-    <dd>The app pairs curated lists with structured data, descriptive meta titles, and clear headings for each retailer, product type, and coupon so search engines can surface the most relevant offers.</dd>
+    <dt>What makes SVR Deals useful beyond Black Friday?</dt>
+    <dd>The app and SVRDeals.com pair verified lists with structured data, descriptive meta titles, and clear headings for each retailer, product type, and coupon so shoppers can find current offers year-round.</dd>
     <dt>Is SVR Deals safe for privacy-focused shoppers?</dt>
     <dd>Yes. We avoid forced logins, limit data collection to diagnostics, and clearly document how analytics and notifications work in the privacy policy.</dd>
     <dt>Can affiliates or brands feature their promotions?</dt>
@@ -154,6 +175,7 @@ meta_keywords:
 
 <section class="cta">
   <h2>Partner with SVR Deals</h2>
-  <p>We are onboarding creators, retailers, and superfans who want to offer signal over noise this Black Friday season.</p>
+  <p>We are onboarding creators, retailers, and superfans who want to offer signal over noise across daily deals, local offers, student savings, seasonal campaigns, and coupons.</p>
   <a class="button-secondary" href="{{ '/contact.html' | relative_url }}">Start the conversation</a>
+  <a class="button-secondary" href="https://svrdeals.com" target="_blank" rel="noopener">Visit SVRDeals.com</a>
 </section>
